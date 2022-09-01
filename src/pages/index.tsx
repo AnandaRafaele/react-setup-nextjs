@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import styled from "styled-components";
 
 const Home: React.FC = () => {
   return (
@@ -10,14 +9,10 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <TitleA>Hello world!</TitleA>
+        <h1>Hello world!</h1>
       </main>
     </div>
   );
 };
-
-export const TitleA = styled.h1`
-  color: gray;
-`;
 
 export default Home;
