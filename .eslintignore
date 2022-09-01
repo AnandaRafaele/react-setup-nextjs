@@ -1,0 +1,4 @@
+node_modules
+.next
+# Força que não corrija os arquivos terminados em .js
+/*.js 
